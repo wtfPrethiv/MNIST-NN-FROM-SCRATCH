@@ -11,7 +11,7 @@ No TensorFlow. No PyTorch (except for loading MNIST). Just matrix and math !!
 
 - Loads and preprocesses the MNIST dataset (28×28 grayscale digits)
 - Implements a 3-layer neural network:
-	  - Input → Dense(128, ReLU) → Dense(64, ReLU) → Dense(10, Softmax)
+     - Input → Dense(128, ReLU) → Dense(64, ReLU) → Dense(10, Softmax)
 - Trains using categorical cross-entropy loss & backpropagation
 - Evaluates test accuracy
 - Predicts and visualizes any test image
